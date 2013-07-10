@@ -1,0 +1,198 @@
+/*RESET BEGIN*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfnq, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*RESET END*/
+
+/*CLEARFIX BEGIN*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  *zoom: 1;
+}
+/*CLEARFIX END*/
+
+/*HIDDEN BEGIN*/
+
+.hidden {
+	display: none;
+}
+
+/*HIDDEN END*/
+
+body {
+	background: url('../img/flowertrail2X.png') 50% 50% repeat;
+}
+
+a {
+	color: rgba(46, 61, 71, 1);
+}
+
+.bodylayer{
+	background-color: rgba(255, 235, 185, .5);
+}
+
+.container {
+	width: 80%;
+	min-width: 840px;
+	min-height: 100%;
+	margin: 0 auto;
+	background: rgba(241, 225, 200, 1);
+	box-shadow: 2px 0 20px rgba(143, 30, 35, .2);
+	padding: 20px 0 120px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	     -o-box-sizing: border-box;
+			    box-sizing: border-box;
+}
+
+.titleblock {
+	background-image: url('../img/sign.png');
+	background-repeat: no-repeat;
+	margin: 10px auto 30px;
+	width: 384px;
+	height: 270px;
+	text-align: center;
+	line-height: 270px;
+	font-family: 'Allura', cursive;
+	font-size: 66px;
+}
+
+.ribbon {
+	height: 40px;
+	width: 100%;
+	background-color: rgba(143, 30, 35, .75);
+	border-top: 2px solid rgba(143, 30, 35, .5);
+	border-bottom: 2px solid rgba(143, 30, 35, .5);
+	box-shadow: 0 5px 15px rgba(150, 100, 100, .6);
+
+}
+
+.tastesimp {
+	margin: 40px auto;
+	background: rgba(255, 255, 255, .3);
+	width: 90%;
+	padding: 20px 0;
+	box-shadow: 0 0 40px rgba(255, 255, 255, .6);
+	border-radius: 12px;
+	letter-spacing: .1em;
+}
+
+
+p, h1, h2, li {
+	font-family: cursive;
+	line-height: 36px;
+	text-align: center;
+	color: rgba(46, 61, 71, 1);
+	text-shadow: 1px 1px 2px rgba(143, 30, 35, .2),
+				 -1px -1px 2px rgba(255, 255, 255, .8);
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+p {
+	margin-top: 10px;
+}
+
+ul {
+  width: 80%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.shop {
+  width: 31%;
+  float: left;
+  margin: 40px 8%;
+  font-size: 20px;
+}
+
+.select {
+  width: 31%;
+  margin: 40px auto;
+  font-size: 20px;
+}
+
+.button {
+	padding: 1%;
+	background: rgba(241, 225, 200, 1);
+	border-radius: 8px;
+	border: 2px solid rgba(143, 30, 35, .1);
+	box-shadow: 2px 2px 15px rgba(150, 100, 100, .3);
+}
+
+.button:hover {
+	text-shadow: 1px 1px 2px rgba(143, 30, 35, .5),
+				 			 -2px -2px 4px rgba(255, 255, 255, 1);
+	background: rgba(241, 225, 200, .9);
+	box-shadow: 3px 3px 18px rgba(150, 100, 100, .4);
+	-webkit-transition-duration: .25s;
+     -moz-transition-duration: .25s;
+       -o-transition-duration: .25s;
+     	    transition-duration: .25s;
+}
+
+.smedia {
+  background: url("img/pinterest.png");
+  /*height: 30px;*/
+}
+
+
