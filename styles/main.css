@@ -160,8 +160,7 @@ ul {
 
 .shop {
   width: 31%;
-  float: left;
-  margin: 40px 8%;
+  margin: 40px auto;
   font-size: 20px;
 }
 
